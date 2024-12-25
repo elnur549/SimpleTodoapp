@@ -1,0 +1,63 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: cornflowerblue;
+  display: grid;
+  place-items: center;
+  margin-top: 100px;
+}
+
+.todoField{
+  display: flex;
+  align-items: center;
+
+}
+.todoField_btn{
+  color: #fff;
+  background-color: coral;
+  border: 0;
+  height:35px;
+  cursor: pointer;
+
+}
+.todoField_input{
+height: 35px;
+border: 0;
+padding: 0 10px;
+outline: 0;
+}
+
+.todos{
+  list-style-type: none;
+  padding: 0;
+  max-height: 120px;
+  overflow-y: auto;
+}
+.todos_item{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+  
+}
+.todos_text{
+text-transform: uppercase;
+font-size: 14px;
+
+}
+.todos_buttons button{
+  margin-left:10px ;
+  text-decoration: none;
+  cursor: pointer;
+  background-color: transparent;
+  border: 0;
+
+
+}
+
+.todos_text_done{
+  text-decoration: line-through;
+}
+
